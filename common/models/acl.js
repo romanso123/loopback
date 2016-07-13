@@ -90,6 +90,7 @@ module.exports = function(ACL) {
   ACL.ALARM = AccessContext.ALARM; // Warn - send an alarm
   ACL.AUDIT = AccessContext.AUDIT; // Audit - record the access
   ACL.DENY = AccessContext.DENY; // Deny
+  ACL.SECURITY_SCOPE = AccessContext.SECURITY_SCOPE;  // Security Check
 
   ACL.READ = AccessContext.READ; // Read operation
   ACL.REPLICATE = AccessContext.REPLICATE; // Replicate (pull) changes
